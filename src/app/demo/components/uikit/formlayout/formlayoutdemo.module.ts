@@ -13,7 +13,7 @@ import { CascadeSelectModule } from "primeng/cascadeselect";
 import { MultiSelectModule } from "primeng/multiselect";
 import { InputTextareaModule } from "primeng/inputtextarea";
 import { InputTextModule } from "primeng/inputtext";
-
+import { PasswordModule } from 'primeng/password';
 @NgModule({
 	imports: [
 		CommonModule,
@@ -28,7 +28,8 @@ import { InputTextModule } from "primeng/inputtext";
 		CascadeSelectModule,
 		MultiSelectModule,
 		InputTextareaModule,
-		InputTextModule
+		InputTextModule,
+        PasswordModule
 	],
 	declarations: [FormLayoutDemoComponent]
 })
